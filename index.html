@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CalcVault サポート</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      background: #050608;
+      color: #f5f5f5;
+      line-height: 1.7;
+    }
+    header {
+      padding: 32px 20px 12px;
+      text-align: center;
+      background: #050608;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 32px;
+      border-left: 4px solid #f5a623;
+      padding-left: 8px;
+    }
+    a {
+      color: #f5a623;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+      padding: 24px 0 16px;
+      border-top: 1px solid #222;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CalcVault サポート</h1>
+    <div>見た目は計算機。中身は写真を安全に保管するプライベートボックス。</div>
+  </header>
+
+  <main>
+    <h2>お問い合わせ</h2>
+    <p>
+      アプリに関するご質問・不具合報告・ご要望などがありましたら、以下のメールアドレスまでご連絡ください。<br>
+      <strong>メールアドレス：</strong> （ここに自分のサポート用メールを書いてください）
+    </p>
+
+    <h2>サポートポリシー</h2>
+    <ul>
+      <li>できる限り速やかな回答を心がけますが、返信まで数日いただく場合があります。</li>
+      <li>個人情報は、サポート対応以外の目的には使用しません。</li>
+    </ul>
+
+    <h2>関連リンク</h2>
+    <ul>
+      <li><a href="privacy.html">プライバシーポリシー</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> CalcVault
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
